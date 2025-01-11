@@ -59,13 +59,18 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- What is the project: The project involves creating a multiple-page Website for TechVerse Innovations, a startup specializing in emerging technologies like Artificial Intelligence, Blockchain and IoT. The website will serve as a digital presence for the company, highlighting its offerings and enabling potential clients to learn more about its innovative solutions.
+- Whats the purpose: The purpose of the project is to develop a website for TechVerse innovations to introduce the company, showcase its innovative tech solutions and provide an easy way for potential clients to connect, targeting tech-savvy businesses seeking affordable and sustainable technologies.
+
 
 ### Key Components
 <!-- TODO: List of Key Components -->
+- Multiple-Page Website
+- Home page
+- About us
+- Services
+- Contact Us
+- Hover effects
 
 ### Technology
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -105,4 +110,6 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Google | Get some idea | www.google.com |
+| YouTube| Get some idea | https://www.youtube.com/ |
+| W3 Schools | Get some idea | https://www.w3schools.com/ |
