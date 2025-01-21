@@ -49,17 +49,15 @@
 
   
 
-
-
-
-
 /*----------------- HEADER ----------------- */
 
 
 
   header {
     display: flex;
+    justify-content:space-around;
     justify-content:flex-end;
+
   }
 
   .header {
@@ -74,6 +72,8 @@
     width: 100%;
     z-index: 1;
   }
+
+
 
   .buttons {
     color: aliceblue;
@@ -118,4 +118,143 @@
   transform: scale(1);
       filter: drop-shadow(0 0 10px #ff706b);
       color: #ff706b;
+
+}
+
+
+
+
+
+
+
+  /*----------------- BODY ----------------- */
+
+
+
+.hero{
+  margin-top: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    color: #ff706b;
+    margin-left: 2rem;
+
+
+  
+}
+
+h1{
+  font-size: 20rem;
+}
+
+
+body{ 
+    background-image: url("../img/steam-background-gif-dump-use-them-for-any-purpose-the-main-v0-4vezv25e8i9b1.gif");
+    background-size: cover;
+ 
+}
+
+
+.services{
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    color: white;
+    gap:2rem;
+
+
+
+
+}
+
+.firstS {
+    text-align: center;
+    height: 100%;
+    flex-direction: column;
+    color: white;
+    transition: transform .2s; /* Animation */
+    background-color: rgba(0, 0, 0, 0.315);
+  
+
+}
+
+
+
+.firstS h2{
+    margin-bottom: 2rem ;
+   
+  
+}
+.secondS{ 
+    text-align: center;
+    height: 100%;
+    flex-direction: column;
+    color: white;
+    transition: transform .2s; /* Animation */
+    background-color: rgba(0, 0, 0, 0.315);
+  
+
+}
+.secondS h2{
+    margin-bottom: 2rem ;
+}
+
+.thirdS{ 
+    text-align: center;
+    height: 100%;
+    flex-direction: column;
+    color: white;
+    transition: transform .2s; /* Animation */
+    background-color: rgba(0, 0, 0, 0.315);
+  
+}
+
+.thirdS h2{
+    margin-bottom: 2rem ;
+}
+
+.firstP{
+  height: fit-content;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.secondP{
+  height: fit-content;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.thirdP{
+  height: fit-content;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.firstS:hover{  
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 10px #ff706b);
+      color: #ff706b;
+}
+
+ .secondS:hover{  
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 10px #ff706b);
+      color: #ff706b;
+} 
+ .thirdS:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 10px #ff706b);
+      color: #ff706b;/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#high{
+  color: white;
+  margin-left: 1rem;
+
 }
