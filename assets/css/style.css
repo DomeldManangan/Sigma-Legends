@@ -16,116 +16,12 @@
   *,
   *::before,
   *::after {
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Urbanist;
   }
-
-
-
-/*----------------- SCROLL BAR -----------------*/
-
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #381c1b;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #131313;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
-  
-
-  
-
-
-
-
-
-/*----------------- HEADER ----------------- */
-
-
-
-  header {
-    display: flex;
-    justify-content:flex-end;
-  }
-
-  .header {
-    margin: 0;
-    padding: .6rem;
-    width: 150vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #111111;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-  }
-
-  .buttons {
-    color: aliceblue;
-    text-decoration: none;
-    font-weight: 900;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    transition: all ease .2s;
-  }
-
-  .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    padding-left: 1rem;
-  }
-
-  .choices {
-    display: flex;
-    align-items: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  .logo {
-    width: 5rem;
-  }
-
-
-
-
-
-
-
-
-/*----------------- HEADER ANIMATIONS ----------------- */
-
-
-.buttons:hover {
-  font-size: 1.7rem;
-  transform: scale(1);
-      filter: drop-shadow(0 0 10px #ff706b);
-      color: #ff706b;
-}
-
-
-
-
-
-
 
   /*----------------- BODY ----------------- */
 
@@ -142,7 +38,7 @@
   }
 
   .wallpaper {
-    position:relative;
+    position:absolute;
     object-fit: cover;
     display: flex;
     align-items: center;
@@ -232,55 +128,96 @@
 
 
 
-    /*----------------- SECTION 2 ----------------- */
+/*----------------- SECTION 2 ----------------- */
+.section2 {
+  height: 100vh; /* Ensures the section takes the full viewport height */
+  display: flex;
+  color: #fff;
+  filter: saturate(150%);
+  text-shadow: 0px 0px 10px white;
+  overflow: hidden; /* Prevents horizontal scrolling */
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  flex-direction: column; /* Adjust layout for better readability */
+}
 
+.section2 h2 {
+  font-size: 4rem;
+  margin-bottom: 0px;
+  font-weight: 1000;
+  word-wrap: break-word; /* Prevents text overflow */
+  white-space: normal; /* Ensures text breaks properly in responsive layout */
+}
+
+.section2 p {
+  text-align: left;
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+  font-weight: 100;
+  word-wrap: break-word; /* Prevents text overflow */
+  white-space: normal; /* Ensures text breaks properly in responsive layout */
+}
+
+.text-content {
+  display: flex;
+  align-items: flex-start; /* Aligns text to the top */
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  position: absolute;
+  top: 10%; /* Adjust to position text above robot's head */
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 100%;
+  text-align: center;
+  z-index: 1;
+  padding: 0 2rem; /* Added padding for smaller screens */
+}
+
+.AI-wallpaper {
+  position: absolute;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+  opacity: 80%;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+}
+
+/* Media Query to adjust layout for smaller screens */
+@media (max-width: 768px) {
   .section2 {
-    height: 100vh;
-    display: flex;
-    color: #fff;
-    filter:saturate(150%);
-    text-shadow: 0px 0px 10px white;
-  }
-
-  .section2 h2 {
-    font-size: 4rem;
-    margin-bottom: 0px;
-    font-weight: 1000;
-  }
-  .section2 p {
-    text-align: left;
-    font-size: 1.5rem;
-    margin-bottom: 0px;
-    font-weight: 100;
+    flex-direction: column;
+    height: auto; /* Ensure section height adjusts dynamically */
   }
 
   .text-content {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    flex-direction: column;
-    margin: 0;
-    padding-left: 55rem;
-    padding-right: 10rem;
-    padding-top: 20rem;
-    position: absolute;
+    top: 20%; /* Adjust text position for smaller screens */
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
-  .AI-wallpaper {
-    position:relative;
-    object-fit: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: -1;
-    opacity: 80%;
-    right: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background-size:cover;
+  .section2 h2 {
+    font-size: 3rem;
   }
+
+  .section2 p {
+    font-size: 1.2rem;
+  }
+}
+
+
+
+
 
 
 
@@ -290,6 +227,8 @@
 
   .section3 {
     height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
     display: flex;
     color: #fff;
     filter:saturate(150%);
@@ -300,7 +239,7 @@
 
     .blockchain-wallpaper {
       filter: brightness(80%);
-      position:relative;
+      position:absolute;
       object-fit: cover;
       display: flex;
       align-items: center;
@@ -349,6 +288,8 @@
 
     .section4 {
       height: 100vh;
+      width: 100%;
+      overflow-x: hidden;
       display: flex;
       color: #fff;
       filter:saturate(150%);
@@ -411,6 +352,8 @@
 
       .section5 {
         height: 100vh;
+        width: 100%;
+        overflow-x: hidden;
         display: flex;
         color: #fff;
         filter:saturate(150%);
@@ -605,63 +548,3 @@
           width: 4rem;
           filter: invert(98%) sepia(4%) saturate(356%) hue-rotate(149deg) brightness(117%) contrast(100%);
         }
-
-
-
-
-    /*----------------- FOOTER ----------------- */
-
-    .footer_color {
-      background-color: #1a1919;
-    }
-    
-    .footer_container {
-      display: flex;
-      align-content: center;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-    }
-    
-    .icons_container {
-      padding-top: 3rem;
-    }
-    
-    .icons_resize {
-      width: 50px;
-      padding-left: 10px;
-      padding-right: 10px;
-      transition: all ease-in .3s;
-    }
-    
-    .icons_resize:hover {
-    padding: .1rem;
-    }
-    
-    .logo_container {
-      display: flex;
-      justify-content: center;
-    }
-  
-    .logo_resize {
-      width: 10%;
-    }
-    
-    
-    .copyright {
-      font-family: urbanist;
-      font-weight: 100;
-      font-size: 1.5rem;
-      color: aliceblue;
-      margin: 0;
-      text-align: center;
-    }
-    
-    .copyright2 {
-      font-family: urbanist;
-      font-weight: 200;
-      font-size: .8rem;
-      color: aliceblue;
-      margin: 5px;
-      text-align: center;
-    }
