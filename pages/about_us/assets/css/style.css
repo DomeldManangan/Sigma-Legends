@@ -22,100 +22,207 @@
     font-family: Urbanist;
   }
 
-
-
-/*----------------- SCROLL BAR -----------------*/
-
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #381c1b;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #131313;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
-  
-
-  
-
-
-
-
-
-/*----------------- HEADER ----------------- */
-
-
-
-  header {
-    display: flex;
-    justify-content:flex-end;
-  }
-
-  .header {
-    margin: 0;
-    padding: .6rem;
-    width: 150vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #111111;
-    position: fixed;
+  #section1 {
+    position: relative;
     width: 100%;
-    z-index: 1;
-  }
-
-  .buttons {
-    color: aliceblue;
-    text-decoration: none;
-    font-weight: 900;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    transition: all ease .2s;
-  }
-
-  .logo {
+    height: 100vh; /* Full screen height */
+    background-color: #1b1b1b; /* Dark background to make the text pop */
+    color: white; /* Light text for readability */
+    filter:saturate(150%);
+    text-shadow: 0px 0px 10px white;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
-    padding: 0;
-  }
-
-  .choices {
-    display: flex;
-    align-items: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  .logo {
-    width: 5rem;
-  }
-
-
-
-
-
-
-
-
-/*----------------- HEADER ANIMATIONS ----------------- */
-
-
-.buttons:hover {
-  font-size: 1.7rem;
-  transform: scale(1);
-      filter: drop-shadow(0 0 10px #ff706b);
-      color: #ff706b;
+    text-align: center;
+    overflow: hidden;
+    
 }
+
+#section1 .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../img/!BG.jpg'); /* Set your image path here */
+    background-size: cover;
+    background-position: center;
+    filter: brightness(50%) blur(8px); /* Darken the background and add a stronger blur effect */
+}
+
+#section1 .content {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    max-width: 900px;
+    color: white; /* Ensure text is readable */
+}
+
+#section1 h1 {
+    font-size: 5rem; /* Bigger text for an impressive title */
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #ff706b; /* Soft red to make the title pop */
+    text-transform: uppercase;
+    letter-spacing: 2px; /* Letter spacing for a modern look */
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Add a shadow for better contrast */
+}
+
+#section1 p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    font-weight: 300;
+    color: #f0f0f0; /* Light color for body text */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); /* Slight text shadow for better readability */
+}
+
+#section1 p strong {
+    font-weight: 600; /* Make important company name stand out */
+    color: #ff706b; /* Match the title color for emphasis */
+}
+
+#section1 .content:hover {
+    transform: scale(1.02); /* Subtle hover effect to make it feel dynamic */
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+
+/* Dual Hero Section */
+#vision-mission {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#vision-mission .hero {
+  position: relative;
+  width: 100%;
+  height: 50vh; /* Each hero takes up half the viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+}
+
+#vision-mission .vision {
+  background-image: url('../img/FF.jpg'); /* Vision background image */
+  background-size: cover;
+  background-position: center;
+  filter: brightness(60%); /* Darken the background for readability */
+}
+
+#vision-mission .mission {
+  background-image: url('../img/FFF.jpg'); /* Mission background image */
+  background-size: cover;
+  background-position: center;
+  filter: brightness(60%); /* Darken the background for readability */
+}
+
+#vision-mission .hero .content {
+  z-index: 2;
+  padding: 20px;
+  max-width: 800px;
+}
+
+#vision-mission .hero h1 {
+  font-size: 4rem; /* Large, bold titles */
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #ff706b; /* Standout color for titles */
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#vision-mission .hero p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  color: #f0f0f0; /* Light text for readability */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#vision-mission .hero:hover {
+  filter: brightness(80%); /* Lighten the background slightly on hover */
+  transition: filter 0.3s ease-in-out;
+}
+
+/* Our Approach Section */
+#our-approach {
+  position: relative;
+  background: url('../img/trygiff.gif') no-repeat center center/cover; /* Use your background image */
+  color: #ffffff;
+  padding: 100px 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.approach-overlay {
+  background: rgba(0, 0, 0, 0.7); /* Dark overlay for readability */
+  padding: 60px 20px;
+}
+
+#our-approach h1 {
+  font-size: 4rem;
+  color: #ff706b; /* Highlighted color */
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+#our-approach p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  margin: 0 auto 40px auto;
+  max-width: 800px;
+  color: #d1d1d1; /* Softer white for readability */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#our-approach .steps {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+#our-approach .step {
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent cards */
+  border-radius: 15px;
+  padding: 20px;
+  width: 280px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  backdrop-filter: blur(10px); /* Glassmorphism effect */
+}
+
+#our-approach .step:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+#our-approach .step .icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+#our-approach .step h2 {
+  font-size: 2rem;
+  color: #ff706b;
+  filter:saturate(150%);
+  text-shadow: 0px 0px 40px #ff706b;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#our-approach .step p {
+  font-size: 1.2rem;
+  color: #e1e1e1;
+  line-height: 1.6;
+}
+
+
