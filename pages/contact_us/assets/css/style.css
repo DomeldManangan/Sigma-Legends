@@ -56,7 +56,6 @@
     margin-bottom: 1rem;
     color: #ff706b;
     filter:saturate(200%);
-    text-shadow: 0px 0px 10px white;
   }
   
   .contact-wrapper p {
@@ -64,7 +63,7 @@
     font-weight: 300;
     color: #f0f0f0; /* Light color for body text */
     filter:saturate(200%);
-    text-shadow: 0px 0px 10px white;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
   }
   
   .contact-form,
@@ -113,7 +112,6 @@
     margin-bottom: 1rem;
     color: #ff706b;
     filter:saturate(200%);
-    text-shadow: 0px 0px 10px white;
   }
   
   .contact-info p {
