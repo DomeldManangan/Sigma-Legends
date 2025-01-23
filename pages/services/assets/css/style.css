@@ -149,8 +149,127 @@ body{
       color: #ff706b;/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
-#high{
+
+
+
+body{
+  font-family: "quicksand", sans-serif;
+  background-color: black;
   color: white;
-  margin-left: 1rem;
+}
+
+.faqs{
+  min-height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:  #120d0c;
+  padding: 20rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+title{
+  font-size: 3rem;
+  margin: 2rem 0rem;
+}
+
+.faqs h2{
+  font-size: 5rem;
+}
+
+.faq{
+  max-width: 100%;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid white;
+  cursor: pointer;
+  
+}
+
+
+.faq:hover #highlight,
+.faq:active #highlight {
+  text-shadow:
+  0 0 5px #ff706b,
+  0 0 10px #ff706b,
+  0 0 20px #ff706b,
+  0 0 40px #ff706b,
+  0 0 80px #ff706b,
+  0 0 90px #ff706b,
+  0 0 100px #ff706b,
+  0 0 150px #ff706b;
+  color: #ff706b;
+}
+
+.faq:hover,
+.faq:active {
+  color: #ffffff;
+}
+
+.faq:hover {
+  color: #ffffff;
+}
+.question{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question h4{
+  font-size: 1.8rem;
+}
+
+.answers p{
+  padding-top: 1rem;
+  line-height: 1.6;
+  font-size: 1.4rem ;
+}
+
+.answers{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-in;
+
+}
+
+.faq.active .answers{
+  max-height: 300px;
+
+}
+
+
+.title{
+  color: #ffffff;
+  width: auto;
+}
+
+
+#highlight{
+  color: #ff706b;
+  transition: all ease .2s;
+  
+
+}
+
+#highlight:hover{
+  text-shadow:
+  0 0 5px #ff706b,
+  0 0 10px #ff706b,
+  0 0 20px #ff706b,
+  0 0 40px #ff706b,
+  0 0 80px #ff706b,
+  0 0 90px #ff706b,
+  0 0 100px #ff706b,
+  0 0 150px #ff706b;
+  color: #ff706b;
+}
+
+#high{
+  color: #ffffff;
+  
 
 }
