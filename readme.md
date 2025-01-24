@@ -116,5 +116,9 @@ WD-ProjectName
 | Github | Get some idea | https://github.com/zyx-0314/Github-Git-Guide?tab=readme-ov-file#readme-top |
 | Tiktok | Get some idea | https://www.tiktok.com/ |
 | Canva | Get some idea | https://www.canva.com/ |
+| Google | Get some idea | https://www.google.co.uk/search?q=innovation+red+and+blue+background&sca_esv=63657ae716cdf89c&source=hp&ei=TamTZ9aUNqDe1e8P1N_FyAY&iflsig=ACkRmUkAAAAAZ5O3XS9I4O0vnfd46UIwZBRxSOCKEv3y&oq=innovation+red+and+blue+backg&gs_lp=Egdnd3Mtd2l6Ih1pbm5vdmF0aW9uIHJlZCBhbmQgYmx1ZSBiYWNrZyoCCAAyBxAhGKABGAoyBxAhGKABGAoyBxAhGKABGAoyBxAhGKABGAoyBRAhGJ8FSLdMUMgMWI5GcAF4AJABAJgBnwGgAbUaqgEENS4yNLgBA8gBAPgBAZgCHqAC8xqoAgrCAgoQABgDGOoCGI8BwgIKEC4YAxjqAhiPAcICDhAAGIAEGLEDGIMBGIoFwgILEAAYgAQYsQMYgwHCAg4QLhiABBixAxiDARiKBcICBRAAGIAEwgILEC4YgAQY0QMYxwHCAggQLhiABBixA8ICDRAAGIAEGLEDGEYY-QHCAggQABiABBixA8ICDhAuGIAEGLEDGNEDGMcBwgIGEAAYFhgewgIIEAAYFhgKGB7CAgsQABiABBiGAxiKBcICCBAAGIAEGKIEwgIIEAAYogQYiQXCAgUQIRigAZgDBfEFU4NtxqmTb7aSBwQ2LjI0oAfxswE&sclient=gws-wiz |
+| Pinterest | Get some idea | https://www.pinterest.com/ |
+| Google | Get some idea | https://www.google.co.uk/search?q=innovation+red+and+blue+background+gif&sca_esv=63657ae716cdf89c&ei=WKmTZ9jHNaHY1e8PqPaN6QQ&ved=0ahUKEwjY06GWzo6LAxUhbPUHHSh7I00Q4dUDCBA&uact=5&oq=innovation+red+and+blue+background+gif&gs_lp=Egxnd3Mtd2l6LXNlcnAiJmlubm92YXRpb24gcmVkIGFuZCBibHVlIGJhY2tncm91bmQgZ2lmMgUQIRigATIFECEYoAEyBRAhGKABSK0QUI4DWOUJcAF4AZABAJgB9gGgAZUFqgEFMC4zLjG4AQPIAQD4AQGYAgWgAqIFwgIKEAAYsAMY1gQYR8ICBRAhGJ8FmAMAiAYBkAYIkgcFMS4zLjGgB6cV&sclient=gws-wiz-serp |
+
 
 
