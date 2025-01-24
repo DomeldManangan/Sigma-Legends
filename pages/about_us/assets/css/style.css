@@ -44,7 +44,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('../img/!BG.jpg'); /* Set your image path here */
+    background-image: url('../img/!BG.jpg');
     background-size: cover;
     background-position: center;
     filter: brightness(50%) blur(8px); /* Darken the background and add a stronger blur effect */
@@ -59,10 +59,10 @@
 }
 
 #section1 h1 {
-    font-size: 5rem; /* Bigger text for an impressive title */
+    font-size: 5rem; 
     font-weight: 700;
     margin-bottom: 30px;
-    color: #ff706b; /* Soft red to make the title pop */
+    color: #ff706b; 
     text-transform: uppercase;
     letter-spacing: 2px; /* Letter spacing for a modern look */
     text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Add a shadow for better contrast */
@@ -79,14 +79,16 @@
 }
 
 #section1 p strong {
-    font-weight: 600; /* Make important company name stand out */
+    font-weight: 1000; /* Make important company name stand out */
     color: #ff706b; /* Match the title color for emphasis */
 }
 
 #section1 .content:hover {
-    transform: scale(1.02); /* Subtle hover effect to make it feel dynamic */
-    transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
 }
+
+
 
 
 /* Dual Hero Section */
@@ -109,14 +111,14 @@
 }
 
 #vision-mission .vision {
-  background-image: url('../img/FF.jpg'); /* Vision background image */
+  background-image: url('../img/FF.jpg');
   background-size: cover;
   background-position: center;
   filter: brightness(60%); /* Darken the background for readability */
 }
 
 #vision-mission .mission {
-  background-image: url('../img/FFF.jpg'); /* Mission background image */
+  background-image: url('../img/FFF.jpg');
   background-size: cover;
   background-position: center;
   filter: brightness(60%); /* Darken the background for readability */
@@ -129,7 +131,7 @@
 }
 
 #vision-mission .hero h1 {
-  font-size: 4rem; /* Large, bold titles */
+  font-size: 4.5rem; /* Large, bold titles */
   font-weight: 700;
   margin-bottom: 20px;
   color: #ff706b; /* Standout color for titles */
@@ -150,10 +152,12 @@
   transition: filter 0.3s ease-in-out;
 }
 
+
+
 /* Our Approach Section */
 #our-approach {
   position: relative;
-  background: url('../img/trygiff.gif') no-repeat center center/cover; /* Use your background image */
+  background: url('../img/trygiff.gif') no-repeat center center/cover;
   color: #ffffff;
   padding: 100px 20px;
   text-align: center;
