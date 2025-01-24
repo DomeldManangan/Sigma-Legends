@@ -1,6 +1,7 @@
 /*----------------- HEADER ----------------- */
 
 
+
 header {
     display: flex;
     justify-content:flex-end;
@@ -49,6 +50,7 @@ header {
 
 
 /*----------------- HEADER ANIMATIONS ----------------- */
+
 
 
 .buttons:hover {
