@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/TECH LOGO.png" alt="T.V.I." width="130" height="100">
+    <img src="./assets/img/TECHVERSE LOGO.png" alt="T.V.I." width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">TechVerse Innovation</h3>
@@ -113,3 +113,8 @@ WD-ProjectName
 | Google | Get some idea | www.google.com |
 | YouTube| Get some idea | https://www.youtube.com/ |
 | W3 Schools | Get some idea | https://www.w3schools.com/ |
+| Github | Get some idea | https://github.com/zyx-0314/Github-Git-Guide?tab=readme-ov-file#readme-top |
+| Tiktok | Get some idea | https://www.tiktok.com/ |
+| Canva | Get some idea | https://www.canva.com/ |
+
+
