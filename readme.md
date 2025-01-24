@@ -16,6 +16,9 @@
   "Innovating Today, Shaping Tomorrow"
 </div>
 
+[![wakatime](https://wakatime.com/badge/user/018f0311-e249-4b38-800d-c0a8f9d916d5/project/2c329815-3433-4ea0-a8ad-d07b494dfbc6.svg)](https://wakatime.com/badge/user/018f0311-e249-4b38-800d-c0a8f9d916d5/project/2c329815-3433-4ea0-a8ad-d07b494dfbc6)
+
+
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
