@@ -128,7 +128,9 @@
 
 
 
-/*----------------- SECTION 2 ----------------- */
+        /*----------------- SECTION 2 ----------------- */
+
+
 .section2 {
   height: 100vh; /* Ensures the section takes the full viewport height */
   display: flex;
@@ -286,6 +288,7 @@
 
     /*----------------- SECTION 4 ----------------- */
 
+
 .section4 {
   height: 100vh;
   width: 100%;
@@ -336,7 +339,7 @@
 
 .text-content3 p {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 100;
   text-shadow: 0px 0px 10px white;
   max-width: 800px; /* Limit paragraph width for better readability */
@@ -463,7 +466,10 @@
 
 
 
-      /* SECTION ADD */
+          /* SECTION ADD */
+
+
+
 .section_add {
   position: relative;
   height: 100vh;
@@ -502,6 +508,9 @@
   font-weight: bold;
   color: #fff;
   text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  font-weight: 1000;
 }
 
 .description {
