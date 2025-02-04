@@ -18,14 +18,15 @@ header {
     z-index: 1000;
 }
 
-  .buttons {
-    color: aliceblue;
-    text-decoration: none;
-    font-weight: 900;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    transition: all ease .2s;
-  }
+.buttons {
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: 900;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  transition: all ease .2s;
+  font-size: 1.5rem;
+}
 
   .logo {
     display: flex;
@@ -53,7 +54,7 @@ header {
 
 .buttons:hover {
   font-size: 1.7rem;
-  transform: scale(1);
+  transform: scale(1.5);
       filter: drop-shadow(0 0 10px #ff706b);
       color: #ff706b;
 }
