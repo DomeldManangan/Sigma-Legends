@@ -86,7 +86,7 @@
     }
 
     .text-hero h2 {
-      font-size: 2rem;
+      font-size: 4rem;
       margin-bottom: 0px;
       font-weight: 500;
       padding-bottom: 0.5rem;
@@ -100,7 +100,7 @@
       flex-direction: column;
       justify-content: end;
       font-size: 1rem;
-      max-width: 400px;
+      max-width: 900px;
       margin: 0 auto;
       bottom: 50px;
       left: 50%;
@@ -109,14 +109,9 @@
       text-align: center;
     }
 
-
-
-
-
-
-
-
-
+    .text-hero-bottom p {
+      font-size: 1.2rem;
+    }
 
 .services{
     margin-top: 5rem;
@@ -150,7 +145,7 @@
 }
 
 .firstS p{
-  font-size: .7rem;
+  font-size: 1.3rem;
 }
 
 .secondS{ 
@@ -168,7 +163,7 @@
 }
 
 .secondS p{
-  font-size: .7rem;
+  font-size: 1.3rem;
 }
 
 .thirdS{ 
@@ -186,7 +181,7 @@
 }
 
 .thirdS p{
-  font-size: .7rem;
+  font-size: 1.3rem;
 }
 
 .firstP{
@@ -346,4 +341,35 @@ body{
   color: #ffffff;
   
 
+}
+
+.text-hero h2 {
+  font-size: 4rem; /* Increased from 2rem */
+  margin-bottom: 0px;
+  font-weight: 500;
+  padding-bottom: 0.5rem;
+}
+
+.text-hero p {
+  font-size: 2rem; /* Increased from 2rem */
+  margin-bottom: 0px;
+  font-weight: 500;
+  padding-bottom: 0.5rem;
+}
+
+.text-hero-bottom {
+  font-size: 1rem;
+  width: 700px;
+  padding-bottom: 4rem;
+   /* Increased from 
+*/
+}
+
+
+.questions h3 {
+  font-size: 1.5rem; /* Increased from 1rem */
+}
+
+.answers p {
+  font-size: 1.5rem; /* Increased from .8rem */
 }
