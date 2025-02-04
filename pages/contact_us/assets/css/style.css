@@ -52,13 +52,14 @@
   }
   
   .contact-wrapper h1 {
-    font-size: 3rem;
+    font-size: 5rem;
     margin-bottom: 1rem;
     color: #ff706b;
     filter:saturate(200%);
   }
   
   .contact-wrapper p {
+    font-size: 1.5rem;
     margin-bottom: 2rem;
     font-weight: 300;
     color: #f0f0f0; /* Light color for body text */
@@ -99,23 +100,27 @@
     text-decoration: none;
     color: black;
     font-size: 13px;
+    margin-top: 1rem;
   }
   
   .contact-form form button:hover {
     border: 2px solid  #ff706b;
     background: transparent;
     color: #ff706b;
+    scale: 1.5;
   }
   
   .contact-info h2 {
-    font-size: 1.8rem;
+    display: flex;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
     color: #ff706b;
     filter:saturate(200%);
+  justify-content: center;
   }
   
   .contact-info p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin: 0.5rem 0;
     color: #f0f0f0; /* Light color for body text */
     filter:saturate(200%);
