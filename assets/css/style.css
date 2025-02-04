@@ -56,7 +56,7 @@
 
 
   .hero {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     text-align: center;
@@ -662,3 +662,121 @@
     max-width: 100%; /* Allow items to take full width */
   }
 }
+
+/* ...existing code... */
+
+.hero h1 {
+  font-size: 5rem; /* Increased from 4rem */
+  margin-bottom: 20px;
+}
+
+.hero h2 {
+  font-size: 1.5rem; /* Increased from 1rem */
+  margin-bottom: 0px;
+  font-weight: 300;
+}
+
+.hero p {
+  font-size: 1.5rem; /* Increased from 1.2rem */
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* ...existing code... */
+
+.section2 h2 {
+  font-size: 5rem; /* Increased from 4rem */
+  margin-bottom: 0px;
+  font-weight: 1000;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.section2 p {
+  text-align: left;
+  font-size: 1.5rem; /* Increased from 1rem */
+  margin-bottom: 0px;
+  font-weight: 100;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+/* ...existing code... */
+
+.section3 h2 {
+  font-size: 5rem; /* Increased from 4rem */
+  margin-bottom: 0px;
+  font-weight: 1000;
+}
+
+.section3 p {
+  text-align: left;
+  font-size: 1.5rem; /* Increased from 1rem */
+  margin-bottom: 0px;
+  font-weight: 100;
+  text-align: center;
+  text-shadow: 0px 0px 10px white;
+}
+
+/* ...existing code... */
+
+.section4 h2 {
+  font-size: 4.5rem; /* Increased from 3.5rem */
+  margin-bottom: 1rem;
+  font-weight: 1000;
+}
+
+.section4 p {
+  text-align: center;
+  font-size: 1.5rem; /* Increased from 1rem */
+  font-weight: 100;
+  text-shadow: 0px 0px 10px white;
+  max-width: 800px;
+  text-align: left;
+}
+
+/* ...existing code... */
+
+.section5 h2 {
+  font-size: 3rem; /* Increased from 2rem */
+  margin-bottom: 0px;
+  font-weight: 1000;
+  padding-bottom: 0.5rem;
+}
+
+/* ...existing code... */
+
+.text-content_add h2 {
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+  font-size: 3.5rem; /* Increased from 2.5rem */
+  margin-bottom: 1rem;
+  font-weight: 1000;
+}
+
+.description p {
+  font-size: 1.2rem; /* Increased from 0.9rem */
+  line-height: 1.5;
+  text-align: left;
+  max-width: 600px;
+  text-shadow: 0px 0px 10px white;
+}
+
+/* ...existing code... */
+
+.section_add2 h2 {
+  padding-bottom: 5rem;
+  text-align: center;
+  font-size: 3.5rem; /* Increased from 2.5rem */
+  padding-top: 5rem;
+}
+
+.section_add2 p {
+  text-align: center;
+  font-size: 1.5rem; /* Added font size */
+  padding-top: 1rem;
+}
+
+/* ...existing code... */
